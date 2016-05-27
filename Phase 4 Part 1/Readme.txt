@@ -1,4 +1,5 @@
 Now, you need to write some queries for the assignment in order to answer the following questions:
+
 1. Find all the states that have a city called BOSTON.
 
 2. Each city may have several zip codes. Find the city in each state with the largest number of zip codes. 
