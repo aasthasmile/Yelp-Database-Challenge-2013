@@ -7,10 +7,10 @@ Use Mongodb 3.2.2 version
 
 Step-1
 Import data to mongodb using Command prompt:
-mongoimport --db yelpdb --collection business --file e:/zips.json
-mongoimport --db yelpdb --collection review --file e:/zips.json
-mongoimport --db yelpdb --collection user --file e:/zips.json
-mongoimport --db yelpdb --collection checkin--file e:/zips.json
+mongoimport --db yelpdb --collection business --file e:/yelpbusiness.json
+mongoimport --db yelpdb --collection review --file e:/yelpreview.json
+mongoimport --db yelpdb --collection user --file e:/yelpuser.json
+mongoimport --db yelpdb --collection checkin--file e:/yelpcheckin.json
 
 Step-2
 Run "mongod" command to start connection to localhost on 27017.
